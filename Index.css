@@ -7,9 +7,14 @@ body{
   background:#ddd;
   font-family:'Oswald', sans-serif;
 }
+.nav{
+  position: sticky;
+  top: 0;
+  
+}
 .socialbar{
   background: #ddd;
-  width: 750px;
+  width: 700px;
   height: 30px;
   text-align: center;
   margin-top: 15px;
@@ -26,6 +31,12 @@ text-decoration: none;
   
   
 }
+. contact {
+  width: 120px;
+  float: left;
+  
+  
+}
 .nam{
   font-size: 20px;
   font-family: arial black;
@@ -34,9 +45,10 @@ text-decoration: none;
   
 }
 .topbar{
-  width:750px;
+  width:700px;
   height: 40px;
   background:orange;
+  color: white;
   
 }
 .menu{
@@ -52,7 +64,7 @@ text-decoration: none;
   width:120px;
   float:left;
   margin-top: 10px;
-  border-left: 1px solid #ddd;
+  
   
  }  
  .menuthree{
@@ -75,12 +87,51 @@ width: 110;
  }
  .intro{
    background: #d4fa0d;
-   width: 400px;
+   width: 700px;
    text-align: center;
-   margin-left:200px ;
+   
    font-size: 40px;
    border: 1px solid blue;
    
    
    
  }
+ .introtext{
+   background: rgb(255,255,255);
+   width: 700px;
+   height: 200px;
+   border: 2px solid black;
+   font-size: 20px;
+   
+   
+   
+   
+ }
+ .imgcontent{
+   width: 700px;
+   
+   
+ }
+ .headmem{
+   background: orange;
+   width: 700px;
+   text-align: center;
+   color: white;
+   height: 40px;
+   font-size: 30px;
+ }
+ .intromem{
+   width: 700px;
+ }
+ .imgone{
+   width: 200px;
+   float: left;
+   border: 1px solid orange;
+   border-radius: 10px;
+ }
+ .imgtwo{
+   width: 200px;
+   float: left;
+   border: 1px solid orange;
+ }
+ 
